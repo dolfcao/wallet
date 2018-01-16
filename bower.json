@@ -3,11 +3,11 @@
   "keywords": [
     "trustnote",
     "wallet",
-    "multisignature"
+    "blockchain"
   ],
   "dependencies": {
     "angular": "1.4.6",
-    "angular-foundation": "git@gitee.com:trustnote/angular-foundation",
+    "angular-foundation": "git@github.com/trustnote/angular-foundation",
     "angular-gettext": "2.1.0",
     "angular-touch": "1.4.6",
     "angular-carousel": "*",

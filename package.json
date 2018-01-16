@@ -1,8 +1,8 @@
 {
-  "name": "trustnote",
+  "name": "wallet",
   "description": "Make payment fun",
-  "author": "Trustnote",
-  "version": "1.0.1",
+  "author": "TrustNote",
+  "version": "1.0.5",
   "keywords": [
     "wallet",
     "trustnote",
@@ -29,14 +29,14 @@
     "plugin": false
   },
   "chromium-args": "--proxy-server=http://127.1.2.7 --password-store=basic --disable-password-generation",
-  "homepage": "https://gitee.com/trustnote/trustnote-wallet",
+  "homepage": "https://github.com/trustnote/wallet",
   "license": "MIT",
   "repository": {
-    "url": "git://gitee.com/trustnote/trustnote-wallet.git",
+    "url": "git://github.com/trustnote/wallet.git",
     "type": "git"
   },
   "bugs": {
-    "url": "https://github.com/trustnote/trustnote-wallet/issues"
+    "url": "https://github.com/trustnote/wallet/issues"
   },
   "browser": {
     "request": "browser-request",
@@ -47,7 +47,7 @@
     "bip38": "^1.4.0",
     "bitcore-lib": "^0.13.14",
     "bitcore-mnemonic": "~1.0.0",
-    "trustnote-common": "git+ssh://git@gitee.com:trustnote/trustnote-common.git",
+    "trustnote-common": "git+ssh://git@github.com/trustnote/common.git",
     "grunt": "^1.0.1",
     "grunt-angular-gettext": "^2.2.3",
     "grunt-browserify": "^5.0.0",
@@ -63,7 +63,7 @@
     "preconditions": "^1.0.8",
     "shelljs": "^0.3.0",
     "sjcl": "^1.0.2",
-    "unzip": "git+ssh://git@gitee.com:trustnote/unzip.git",
+    "unzip": "git+ssh://git@github.com/trustnote/unzip.git",
     "zip": "git+https://github.com/xJeneKx/zip.git"
   },
   "optionalDependencies": {
